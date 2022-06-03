@@ -1,0 +1,48 @@
+.edit-content, .edit-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.edit-page-content {
+  align-items: center;
+}
+
+.input-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-label {
+  align-self: center;
+  font-weight: 800;
+}
+
+.edit-input, .edit-input-textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.edit-input-textarea {
+  height: 100px;
+}
+
+.edit-button {
+  align-self: center;
+  background-color: #314c53;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 20px;
+  padding: 10px 30px;
+  width: 150px;
+}
+
+
+.edit-button:disabled {
+  background-color: #5a7f78;
+}

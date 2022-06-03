@@ -1,0 +1,28 @@
+.musics-page-content {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album-title-container {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.album-title-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 30px;
+  width: 100%;
+}
+
+.album-title-content img {
+  margin-bottom: 5px;
+  width: 250px;
+}
+
+.album-title-content p {
+  margin: 0 0 5px;
+}

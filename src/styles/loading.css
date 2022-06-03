@@ -1,0 +1,6 @@
+.loading-container {
+  color: #314c53;
+  display: flex;
+  font-size: xx-large;
+  justify-content: center;
+}

@@ -1,0 +1,86 @@
+.search-input-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.input-area {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 40px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  width: 500px;
+}
+
+.search-button {
+  background-color: #314c53;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  height: 40px;
+  padding: 8px 20px;
+}
+
+.search-button:disabled {
+  background-color: #5a7f78;
+}
+
+.albuns-content {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+.albuns-content p {
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.album-card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album-card {
+  align-items: center;
+  background-color: #bbdec6;
+  display: flex;
+  flex-direction: column;
+  height: 325px;
+  justify-content: center;
+  margin: 5px;
+  width: 325px;
+}
+
+.album-card p {
+  margin: 5px 0 7px;
+  text-align: center;
+}
+
+.album-card img {
+  height: 60%;
+}
+
+.album-colletion-name {
+  font-weight: 700;
+}
+
+.album-button {
+  background-color: #314c53;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 7px 15px;
+}
